@@ -1,15 +1,22 @@
 Package: mutatieonderhoud
-Title: What the Package Does (One Line, Title Case)
+Title: Mutatieonderhoud bij woningcorporaties
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    c(person(given = "Mike",
+           family = "Kleef, van",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "mike.van.kleef@cibia.nl"),
+      person(given = "Martijn",
+           family = "Vreugdenhil",
+           role = c("aut", "cre"),
+           email = "martijn.vreugdenhil@staedion.nl"),
+      person(given = "Richard",
+           family = "Zevenbergen",
+           role = c("aut", "cre"),
+           email = "rzevenbergen@ymere.nl")           
+           )
+Description: Functies voor de analyse van het mutatieonderhoud bij woningcorporaties.
+URL: https://github.com/vreugdenhil-staedion/r_package_mutatieonderhoud    
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
